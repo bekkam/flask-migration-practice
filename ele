@@ -1,0 +1,9 @@
+                                          Table "public.order"
+    Column     |            Type             |                        Modifiers                         
+---------------+-----------------------------+----------------------------------------------------------
+ order_id      | integer                     | not null default nextval('order_order_id_seq'::regclass)
+ customer_name | character varying(30)       | not null
+ order_date    | timestamp without time zone | not null
+Indexes:
+    "order_pkey" PRIMARY KEY, btree (order_id)
+

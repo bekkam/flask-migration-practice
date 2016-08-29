@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fun with Alembic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <style>
+      .container {
+        max-width: 1000px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Testing Alembic Migrations</h1>
+      <h4>Delivery order form:</h4>
+      <form role="form" method='POST' action='/'>
+        <div class="form-group">
+          <input type="text" name="customer-name" class="form-control" id="customer-name-box" placeholder="Enter customer name..." style="max-width: 300px;" autofocus required>
+          <input type="text" name="order-item" class="form-control" id="order-item-box" placeholder="Enter order item..." style="max-width: 300px;" autofocus required>
+        </div>
+        <button type="submit" class="btn btn-default">Order my item for delivery!</button>
+      </form>
+    </div>
+    <script src="//code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+</html>

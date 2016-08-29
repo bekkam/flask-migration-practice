@@ -1,0 +1,6 @@
+*.pyc
+env/
+example.py
+secrets.sh
+notes.txt
+README.md
